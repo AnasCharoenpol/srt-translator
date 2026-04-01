@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SRT Translator - Thai to EN/ZH</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        background: #0a0a0a;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      #animated-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        overflow: hidden;
+      }
+
+      .gradient-blob {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(80px);
+        opacity: 0.6;
+        mix-blend-mode: screen;
+      }
+
+      .blob-1 {
+        width: 500px;
+        height: 500px;
+        background: linear-gradient(135deg, #6366f1, #8b5cf6);
+        top: -100px;
+        left: -100px;
+      }
+
+      .blob-2 {
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(135deg, #ec4899, #f43f5e);
+        bottom: -150px;
+        right: -150px;
+      }
+
+      .blob-3 {
+        width: 450px;
+        height: 450px;
+        background: linear-gradient(135deg, #06b6d4, #3b82f6);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .floating-shape {
+        position: absolute;
+        opacity: 0.15;
+      }
+
+      .circle {
+        border-radius: 50%;
+        border: 2px solid white;
+      }
+
+      .square {
+        border: 2px solid white;
+        transform: rotate(45deg);
+      }
+
+      #root {
+        width: 100%;
+        max-width: 600px;
+        position: relative;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="animated-bg"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
