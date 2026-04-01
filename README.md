@@ -4,7 +4,7 @@ Currently deployed live on Vercel.
 ---
 ## 📸 Demo Video
 
-https://github.com/user-attachments/assets/678729e2-6f44-41e6-9f6f-49d3126ad8a5
+https://github.com/user-attachments/assets/9aa9e14d-b435-42dc-b39c-bc9ab6b1031f
 
 ---
 ## 🚀 Features
