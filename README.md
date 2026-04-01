@@ -3,7 +3,9 @@
 Currently deployed live on Vercel.
 ---
 ## 📸 Demo Video
-Uploading Screen Recording 2569-04-01 at 12.56.13.mov…
+
+https://github.com/user-attachments/assets/678729e2-6f44-41e6-9f6f-49d3126ad8a5
+
 ---
 ## 🚀 Features
 - **Any Language Support:** You are not limited to predefined dropdowns. Type *any* source or target language (e.g., "Spanish to Japanese", "Thai to English"), and the LLM handles it dynamically.
