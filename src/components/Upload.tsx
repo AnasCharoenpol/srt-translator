@@ -4,10 +4,9 @@ interface UploadProps {
   onFileSelect: (file: File) => void;
   accept: string;
   label: string;
-  optional?: boolean;
 }
 
-export default function Upload({ onFileSelect, accept, label, optional }: UploadProps) {
+export default function Upload({ onFileSelect, accept, label }: UploadProps) {
   const [isDragging, setIsDragging] = React.useState(false);
   const [selectedFile, setSelectedFile] = React.useState<File | null>(null);
 
