@@ -1,5 +1,5 @@
 # 🌍 AI SRT Subtitle Translator
-A truly universal, client-side `.srt` subtitle translator powered by modern LLM APIs. Upload any `.srt` file, type in any target or source language, securely provide your API Key (e.g., OpenAI, Ollama, OpenRouter), and let the application translate your subtitles line-by-line while perfectly preserving the critical timestamp metadata and syncing limits!
+- A truly universal, client-side `.srt` subtitle translator powered by modern LLM APIs. Upload any `.srt` file, type in any target or source language, securely provide your API Key (e.g., OpenAI, Ollama, OpenRouter), and let the application translate your subtitles line-by-line while perfectly preserving the critical timestamp metadata and syncing limits!
 Currently deployed live on Vercel.
 ---
 ## 📸 Demo Video
