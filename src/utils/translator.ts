@@ -53,7 +53,8 @@ Return format: {"translations": [{"id": <int>, "text_out": "<text>"}]}
 const delay = (ms: number) => new Promise(res => setTimeout(res, ms));
 
 async function callOpenAI(config: TranslateConfig, systemPrompt: string, userContent: string, attempt: number = 0): Promise<any> {
-  const url = config.baseUrl.replace(/\/+$/, '') + '/chat/completions';
+  const base = config.baseUrl && config.baseUrl.trim() !== '' ? config.baseUrl : 'https://api.openai.com/v1';
+  const url = base.replace(/\/+$/, '') + '/chat/completions';
   
   try {
     const response = await fetch(url, {
